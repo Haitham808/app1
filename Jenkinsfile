@@ -19,13 +19,7 @@ pipeline {
                       - name: nginx
                         image: nginx:latest
                         command: ["/bin/sh"]
-                        args:
-                            - "-c"
-                            - |
-                            echo "Hello World";
-                            while true; do sleep 3600; done
-                
-                
+                        args: ["sleep","3600"]
                            """
             }
     }
