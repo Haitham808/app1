@@ -28,7 +28,7 @@ pipeline {
                 
                            """
             }
-
+    }
 
 
                 stages {
@@ -38,5 +38,5 @@ pipeline {
                         }
                     }
                 }   
-     }
+     
 }
