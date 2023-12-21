@@ -1,11 +1,6 @@
-pipeline {
-    agent any
+@Library ("sahred-library") _
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
-}
+monolithPipeline([
+        SLACK_CHANNEL: '#au-release-planning',
+        ARGOCD_APP_NAME: 'monolith',
+])
