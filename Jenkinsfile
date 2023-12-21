@@ -16,7 +16,7 @@ pipeline {
                     name: nginx-echo-hello-world
                     spec:
                     containers:
-                        - name: nginx
+                      - name: nginx
                         image: nginx:latest
                         command: ["/bin/sh"]
                         args:
