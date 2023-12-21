@@ -1,4 +1,4 @@
-@Library ("sahred-library") _
+@Library ("shared-library") _
 
 monolithPipeline([
         SLACK_CHANNEL: '#au-release-planning',
