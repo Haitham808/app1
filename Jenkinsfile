@@ -3,7 +3,7 @@ import haitham.com.au.common.Global
 
 //Global.set(this, ["SLACK_CHANNEL": "#au-automation"])
 
-Global.script.echo("hi from global")
+// Global.script.echo("hi from global")
 
 monolithPipeline([SLACK_CHANNEL: '#au-release-planning',
         ARGOCD_APP_NAME: 'monolith'
