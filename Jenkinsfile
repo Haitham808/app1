@@ -1,5 +1,5 @@
 @Library ("shared-library") _
-import haitham.com.au.common.Global
+import common.Global
 
 //Global.set(this, ["SLACK_CHANNEL": "#au-automation"])
 
